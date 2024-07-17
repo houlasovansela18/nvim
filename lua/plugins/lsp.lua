@@ -16,6 +16,7 @@ return {
                 "gomod",
                 "gowork",
                 "gosum",
+                "zls",
             })
         end,
     },
@@ -182,6 +183,7 @@ return {
                         },
                     },
                 },
+                zls = {},
             },
             setup = {
                 gopls = function(_, opts)

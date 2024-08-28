@@ -9,3 +9,4 @@ vim.print = _G.dd
 
 require("config.lazy")
 require("grug-far")
+require("bufferline").setup({})
